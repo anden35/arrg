@@ -1,0 +1,5 @@
+1.0.1 -> 1.1
+Added the field `building` to the pulls, placement, and move tables, BD, and forms.
+Rolloff function now updates the col status to 'roll_off'
+The status 'roll_off' now counts as a pulled computer in the overview report.
+Pull list is now sorted by numerically 

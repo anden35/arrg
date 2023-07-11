@@ -1,0 +1,132 @@
+/*Landing page styles*/
+
+/*Buttons*/
+  /*All buttons*/
+  .buttons{
+  height: 50px;
+  width: 150px;
+  }
+
+  /*Radio butotns*/
+  .buttons_radio{
+  height: 30px;
+  width:50px;
+  }
+
+  /*Device type buttons*/
+  .buttons_type{
+    width:50px;
+  }
+  a.button {
+      -webkit-appearance: button;
+      -moz-appearance: button;
+      appearance: button;
+
+      text-decoration: none;
+      color: initial;
+      padding: 1px 5px 2px 5px;
+  }
+
+/*Labels*/
+  /*Labels throughout the project*/
+
+
+
+
+/*Dropdown selectors*/
+
+/*Tables*/
+
+  .table {
+    top:80px;
+    display:inline-table;
+    border: 1px solid;
+    border-collapse: collapse;
+  }
+
+  th,td {
+    white-space: nowrap;
+    border: 1px solid;
+    border-collapse: collapse;
+    padding: 5px;
+    text-align: left;
+  }
+
+  table tr:nth-child(even){
+    background-color: #eee;
+  }
+
+  table tr:nth-child(odd){
+    background-color: #fff;
+  }
+
+  table th{
+    background-color: black;
+    color: white;
+  }
+
+  #shoalriverRolloffTable{
+  float:right;
+  }
+
+  #davidsonRolloffTable{
+    float: left;
+  }
+
+/*Containers*/
+  /*Style separate div for Action buttons (To separate from Report Buttons)*/
+  .Action_buttons_div{
+  text-align: center;
+  margin: 50px;
+  float:left;
+  }
+
+  /*Style separate div for Report buttons (To separate from Action Buttons)*/
+  .Report_buttons_div{
+  text-align: center;
+  margin: 50px;
+  float: right;
+  }
+
+  /*Style the div around the type buttons*/
+  .type_buttons_container{
+  padding-top: 10%;
+  }
+
+  /*Entire container for the moves page*/
+
+
+  /*Style for Table list div of assets on moves/placements/etc... */
+  .assets_guide_container{
+  text-align: center;
+
+  }
+#rolloff_container{
+  float: right;
+  margin-right: 10%;
+}
+
+
+
+/*Input Fields*/
+  /*Style for Asset Tag and New Room, Old Room, Pull room etc..*/
+  .input_box_container{
+    float:left;
+    padding-top: 50px;
+  }
+
+
+/*Ask Chris to translate, so we can move to correct comment block*/
+/*for 2 Cols sites*/
+.confor2cols{
+  width: 100%;
+}
+
+.leftcol{
+  width: 50%;
+  float: left;
+}
+
+.rightcol{
+  margin-left: 50%;
+}
